@@ -1,0 +1,115 @@
+body {
+	font-family: Verdana;
+}
+
+.size-1 {
+	font-size: 30px;
+}
+
+.size-2 {
+	font-size: 22px;
+}
+
+.size-3 {
+	font-size: 13px;
+}
+
+.col-md-6 {
+	padding: 0;
+}
+
+.column-bottom  {
+	margin-bottom: 5px;
+}
+
+.icon {
+	height: 16px;
+	width: 16px;
+	display: inline-block;
+	margin: 1px 5px 0;
+	vertical-align: top;
+}
+
+.icon.home {
+	background-image: url('../images/icon_home.png');
+}
+
+.icon.person {
+	background-image: url('../images/icon_person.png');
+}
+
+.icon.email {
+	background-image: url('../images/icon_email.png');
+}
+
+.icon.phone {
+	background-image: url('../images/icon_phone.png');
+}
+
+#title {
+	margin: 40px auto;
+	font-size: 32px;
+	text-align: center;
+}
+
+.job {
+	background-color: #f0f0f0;
+}
+
+.section {
+	margin: 0 auto;
+}
+
+.section .title {
+	margin-bottom: 10px;
+	font-size: 26px;
+}
+
+.characteristics {
+	width: 120px;
+}
+
+.context {
+	width: 175px;
+}
+
+.talent-list {
+	float: left;
+}
+
+.talent-list .row-table {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.talent-list .talent-block {
+	display: table-cell;
+}
+
+.talent-container {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.stars {
+	height: 32px;
+	width: 32px;
+	display: table-cell;
+	vertical-align: top;
+	padding-top: 5px;
+}
+
+.star {
+	height: 12px;
+	width: 12px;
+	margin: 0 3px 3px 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.talent {
+	display: table-cell;
+	padding: 0 5px;
+}
