@@ -1,0 +1,31 @@
+# My-resume
+# Docker compose development environment
+# @author oben59<benoit.oyez@telecomnancy.net>
+##
+
+version: '2'
+
+services:
+  fpm:
+    image: php:5.6-fpm
+    volumes:
+      - ./fpm:/var/www
+    networks:
+      - default
+
+  webserver:
+    image: nginx:latest
+    environment:
+      - VIRTUAL_HOST=my-resume.localhost
+    volumes:
+      - ./webserver/conf:/etc/nginx/conf.d/
+      - ./webserver/www:/var/www
+    ports:
+      - 80
+    networks:
+      - default
+      - front
+
+networks:
+  front:
+    external: true
