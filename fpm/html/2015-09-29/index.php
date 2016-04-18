@@ -311,21 +311,21 @@
 <html>
 	<head>
 		<title>Benoît OYEZ - CV</title>
-		<link rel="stylesheet" href="css/bootstrap.min.css"/>
-		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="/css/style.css"/>
 		<meta charset="utf-8"/>
 	</head>
 	<body>
 		<div class="container" id="header">
 			<div class="col-md-6 col-sm-6 col-xs-6">
 				<div id="name" class="column-bottom size-1">Benoît OYEZ</div>
-				<div id="info1" class="column-bottom size-3"><img src="images/icon_home.png" class="icon">37 rue Rouget de Lisle, 92130 Issy les Moulineaux</div>
-				<div id="info2" class="size-3"><img src="images/icon_person.png" class="icon">né en Janvier 1988, non fumeur, permis B</div>
+				<div id="info1" class="column-bottom size-3"><img src="/images/icon_home.png" class="icon">37 rue Rouget de Lisle, 92130 Issy les Moulineaux</div>
+				<div id="info2" class="size-3"><img src="/images/icon_person.png" class="icon">né en Janvier 1988, non fumeur, permis B</div>
 			</div>
 			<div class="col-md-6 col-sm-6 col-xs-6">
 				<div id="heading" class="column-bottom pull-right size-2">Contacts :</div><div class="clearfix"></div>
-				<div id="email" class="column-bottom pull-right size-3"><img src="images/icon_email.png" class="icon">boyez@sfr.fr</div><div class="clearfix"></div>
-				<div id="phone" class="pull-right size-3"><img src="images/icon_phone.png" class="icon">06.13.76.00.22</div><div class="clearfix"></div>
+				<div id="email" class="column-bottom pull-right size-3"><img src="/images/icon_email.png" class="icon">boyez@sfr.fr</div><div class="clearfix"></div>
+				<div id="phone" class="pull-right size-3"><img src="/images/icon_phone.png" class="icon">06.13.76.00.22</div><div class="clearfix"></div>
 			</div>
 		</div>
 		<div class="container" id="title">Software Craftsman</div>
@@ -394,10 +394,10 @@
 							<div class="talent-container">	
 								<div class="stars"><!--
 								<?php for($i = 0; $i < $talent['note']; $i++) : ?>
-									--><img class="star" src="images/star_complete.png"/><!--
+									--><img class="star" src="/images/star_complete.png"/><!--
 								<?php endfor; ?>
 								<?php for($i = $talent['note']; $i < 4; $i++) : ?>
-									--><img class="star" src="images/star_empty.png"/><!--
+									--><img class="star" src="/images/star_empty.png"/><!--
 								<?php endfor; ?>
 								--></div>
 								<div class="talent"><?= $talent['name'];?></div>
