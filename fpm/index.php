@@ -2,111 +2,95 @@
 	$experiences = [
 		[
 			"job" => "De Octobre 2015 à aujourd'hui : Devops (CDI), au sein de Top Chrono Innovation, Paris, éditeur de Jogg.in, réseau social autour des activités du running",
-            "missions" => [
-                [
-                    "tasksList" => [
-                        "Installation d'un gestionnaire de dépôt Git",
-                        "Utilisation d'une plateforme d'intégration continue",
-                        "Mise en place d'un environnement de développement de l'API données",
-                        "Stratégie de test de l'API de données",
-                        "Architecture et développement de l'API de données",
-                        "Installation, configuration de l'environnement de production",
-                        "Mise en place d'une solution de backup",
-                        "Déploiement Docker multi hôtes",
-                        "Intégration de l'agent et création de dashboards de monitoring",
-                        "Stratégie d'architecture REST et communication des données aux clients",
-                        "Caching de données de l'application"
-                    ],
-                    "technologies" => [
-                        "PHP, Symfony 2",
-                        "MySQL, MongoDB",
-                        "RabbitMQ",
-                        "Nginx",
-                        "Gitlab",
-                        "Docker",
-                        "Datadog"
-                    ]
-                ]
-            ]
+			"missions" => [
+				[
+					"tasksList" => [
+						"Installation d'un gestionnaire de dépôt Git",
+						"Configuration d'une plateforme d'intégration continue",
+						"Stratégie de test de l'API de données",
+						"Installation, configuration de l'environnement de production",
+						"Mise en place d'une solution de backup",
+						"Déploiement multi hôtes",
+						"Intégration de l'agent et création de dashboards de monitoring",
+						"Stratégie d'architecture REST et communication des données aux clients",
+						"Caching de données de l'application"
+					],
+					"technologies" => [
+						"Behat",
+						"Gitlab",
+						"Docker",
+						"Datadog"
+					]
+				]
+			]
 		],
 		[
 			"job" => "De Avril 2015 jusqu'à aujourd'hui : Lead Développeur (CDI), au sein de Devispresto, Paris, éditeur des sites web Devispresto.com et Habitatpresto.com de mise en relation particuliers-professionels dans le domaine du bâtiment",
 			"missions" => [
-                [
-                    "tasksList" => [
-                        "Maintenance corrective du système Backoffice et site Frontoffice",
-                        "Architecture et développement de plusieurs fonctionnalités majeures de l'administration Backoffice",
-                        "Encadrement et formation de membres juniors de l'équipe sur l'administration Backoffice",
-                        "Architecture et développement des applications mobiles iOS et Android",
-                        "Refonte graphique du site principal, responsive design"
-                    ],
-                    "technologies" => [
-                        "PHP, Zend 1, Laravel",
-                        "HTML, CSS, Less, Bootstrap",
-                        "Javascript, jQuery",
-                        "Objective C, Java Android"
-                    ]
-                ]
-            ]
+				[
+					"tasksList" => [
+						"Maintenance corrective du système Backoffice et site Frontoffice",
+						"Architecture et développement de plusieurs fonctionnalités majeures de l'administration Backoffice",
+						"Encadrement et formation de membres juniors de l'équipe sur l'administration Backoffice",
+						"Architecture et développement des applications mobiles iOS et Android",
+						"Refonte graphique du site principal, responsive design"
+					],
+					"technologies" => [
+						"PHP, Zend 1, Laravel",
+						"HTML, CSS, Less, Bootstrap",
+						"Javascript, jQuery",
+						"Objective C, Java Android"
+					]
+				]
+			]
 		],
 		[
 			"job" => "De Août 2014 jusqu'à Mars 2015 : Développeur web (CDI), au sein de Key Performance Group, Paris, agence de solutions marketing utilisant les nouvelles technologies",
-            "missions" => [
-                [
-                    "tasksList" => [
-                        "Architecture et développement modulaire d'une plateforme Saas de création de jeux concours en ligne",
-                        "Développement de sites événementiels jeux concours sur mesure avec interface d'extraction de données"
-                    ],
-                    "technologies" => [
-                        "PHP, Silex",
-                        "MySQL",
-                        "HTML, CSS",
-                        "Javascript, jQuery"
-                    ]
-                ]
-            ]
+			"missions" => [
+				[
+					"tasksList" => [
+						"Architecture et développement modulaire d'une plateforme Saas de création de jeux concours en ligne",
+						"Développement de sites événementiels jeux concours sur mesure avec interface d'extraction de données"
+					],
+					"technologies" => [
+						"PHP, Silex",
+						"MySQL",
+						"HTML, CSS",
+						"Javascript, jQuery"
+					]
+				]
+			]
 		],
 		[
 			"job" => "De Mars 2011 jusqu'à Août 2014 : Développeur mobile (CDI), au sein d'Airweb, Saint Cloud, agence de développement de solutions mobiles",
-            "missions" => [
-                [
-                    "tasksList" => [
-                        "Conception, développement et maintenance évolutive d'une quinzaine d'applications mobiles"
-                    ],
-                    "technologies" => [
-                        "C#",
-                        "C++",
-                        "Objective C",
-                        "HTML, CSS",
-                        "Javascript, jQuery"
-                    ]
-                ],
-                [
-                    "tasksList" => [
-                        "Conception et développement d'un portail CMS",
-                        "Prise en main des technologies et formation des membres juniors de l'équipe"
-                    ],
-                    "technologies" => [
-                        "PHP, Joomla!, Prestashop",
-                        "MySQL",
-                        "HTML, CSS",
-                        "Javascript, jQuery"
-                    ]
-                ],
-                [
-                    "tasksList" => [
-                        "Développement Backoffice API REST et interface d'administration",
-                        "Coordination client-serveur des échanges de données temps réel",
-                        "Conception NoSQL de base de données"
-                    ],
-                    "technologies" => [
-                        "PHP",
-                        "MySQL",
-                        "HTML, CSS",
-                        "Javascript, jQuery, EnyoJS"
-                    ]
-                ]
-            ]
+			"missions" => [
+				[
+					"tasksList" => [
+						"Conception et développement d'un portail CMS",
+						"Prise en main des technologies et formation des membres juniors de l'équipe",
+						"Développement d'un Backoffice API REST et interface d'administration",
+						"Coordination client-serveur des échanges de données temps réel",
+					],
+					"technologies" => [
+						"PHP, Joomla!, Prestashop",
+						"MySQL",
+						"HTML, CSS",
+						"Javascript, jQuery"
+					]
+				],
+				[
+					"tasksList" => [
+						"Conception, développement et maintenance évolutive d'une quinzaine d'applications mobiles"
+					],
+					"technologies" => [
+						"C#",
+						"C++",
+						"Objective C",
+						"HTML, CSS",
+						"Javascript, jQuery"
+					]
+				]
+			]
 		]
 	];
 	$talentsList = [
@@ -292,6 +276,7 @@
 			</div>
 		</div>
 		<div class="container" id="title">Software Craftsman</div>
+		<div class="container"></div>
 		<div class="container">
 			<div class="section" id="experiences">
 				<div class="title">Expériences choisies</div>
@@ -313,6 +298,8 @@
                                 <li><?= $task ?></li>
                                 <?php endforeach; ?>
                             </ul>
+						</div>
+						<div>
                             <strong>Technologies</strong>
                             <ul class="technologies">
                                 <?php foreach($mission["technologies"] as $technology) : ?>

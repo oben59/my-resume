@@ -63,6 +63,3 @@ fabric.properties
 out
 gen
 # Created by .ignore support plugin (hsz.mobi)
-
-### index.php
-fpm/html/index.php
