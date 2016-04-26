@@ -2,6 +2,12 @@ body {
 	font-family: Verdana;
 }
 
+@media (min-width: 768px) {
+	.container {
+		width: 1080px;
+	}
+}
+
 .size-1 {
 	font-size: 28px;
 }
@@ -47,9 +53,17 @@ body {
 }
 
 #title {
-	margin: 30px auto;
+	margin: 10px auto;
 	font-size: 32px;
 	text-align: center;
+}
+
+#quote {
+	text-align: center;
+}
+
+#quote-block {
+	display: inline-block;
 }
 
 .job {
@@ -62,7 +76,7 @@ body {
 
 .section .title {
 	margin-bottom: 10px;
-	font-size: 26px;
+	font-size: 24px;
 }
 
 .characteristics {
@@ -91,6 +105,7 @@ body {
 	display: table;
 	width: 100%;
 	height: 100%;
+	margin-bottom: 20px;
 }
 
 .stars {
@@ -112,4 +127,17 @@ body {
 .talent {
 	display: table-cell;
 	padding: 0 5px;
+	vertical-align: middle;
+}
+
+#talents, #formation {
+	float: left;
+}
+
+@media all {
+	.page-break	{ display: none; }
+}
+
+@media print {
+	.page-break	{ display: block; page-break-before: always; }
 }
