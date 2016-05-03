@@ -193,7 +193,7 @@
 		<div class="container" id="title">Software Craftsman</div>
 		<div class="container" id="quote"><div id="quote-block"><blockquote>Donner plus de valeur au développement, plus tôt</blockquote></div></div>
 		<div class="container">
-			<div class="col-md-8 col-sm-8 col-xs-8">
+			<div class="col-md-8 col-sm-8 col-xs-8 first-col">
 				<div id="experiences">
 					<div class="section" id="experiences">
 						<div class="title">Expériences choisies</div>
@@ -289,8 +289,19 @@
 			</div>
 		</div>
 		<div class="page-break"></div>
-		<div class="container">
-			TEST
+		<div class="container section">
+			<div class="title">Chaîne de production de valeur</div>
+			<iframe frameborder="0" style="width:100%;height:923px" src="https://www.draw.io/?chrome=0&lightbox=1&edit=https%3A%2F%2Fwww.draw.io%2F%23G0B4OdPCoyIx8tQjc1QS1OdTJnRnM&nav=1&db=0&od=0#G0B4OdPCoyIx8tQjc1QS1OdTJnRnM"></iframe>
+		</div>
+		<div class="container section">
+			<div class="title">Mes plus</div>
+			<ul>
+				<li>Une expérience de construction d'une usine logicielle de production de valeur</li>
+				<li>5 années en temps que Développeur dans différents contextes: mobile, frontend web, backend web</li>
+				<li>Plusieurs expériences de transmission/sensibilisation d'autres membres de l'équipe</li>
+				<li>Une sensibilisation à l'organisation agile en équipe (Scrum)</li>
+				<li>Dynamisme, culture générale, humour</li>
+			</ul>
 		</div>
 	</body>
 </html>

@@ -20,6 +20,10 @@ body {
 	font-size: 12px;
 }
 
+.first-col {
+	border-right: 1px solid black;
+}
+
 .col-md-6 {
 	padding: 0;
 }
@@ -135,9 +139,13 @@ body {
 }
 
 @media all {
-	.page-break	{ display: none; }
+	.page-break	{ height: 30px; }
 }
 
 @media print {
-	.page-break	{ display: block; page-break-before: always; }
+	.page-break	{ display: block; height: 0; page-break-before: always; }
+}
+
+.mxgraph {
+	margin-top: 20px;
 }
