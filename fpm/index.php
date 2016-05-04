@@ -288,7 +288,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="page-break"></div>
+		<div class="container page-break"></div>
 		<div class="container section">
 			<div class="title">Chaîne de production de valeur</div>
 			<iframe frameborder="0" style="width:100%;height:923px" src="https://www.draw.io/?chrome=0&lightbox=1&edit=https%3A%2F%2Fwww.draw.io%2F%23G0B4OdPCoyIx8tQjc1QS1OdTJnRnM&nav=1&db=0&od=0#G0B4OdPCoyIx8tQjc1QS1OdTJnRnM"></iframe>

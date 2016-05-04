@@ -138,8 +138,15 @@ body {
 	float: left;
 }
 
+@media print {
+	td.job {
+		font-weight: bold;
+		font-size: 14px;
+	}
+}
+
 @media all {
-	.page-break	{ height: 30px; }
+	.page-break	{ height: 30px; border-top: 1px solid black; }
 }
 
 @media print {
